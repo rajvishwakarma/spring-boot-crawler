@@ -18,3 +18,11 @@ For the impatient...
 # More possible solution to the problem
 
 A more possible approach could have been to create Background Jobs to crawl the resources in background and updating the links and resources in database. Each time a link is added to crawl it will process inline for the first time but later on it can be done in background. It will crawl through the complete website and collect all the resources and links. Whenever the same link is provided to crawl, the results can be fetched directly from the database and save the time to crawl the website again and again. This can be an optimized way of doing things.    
+
+# Screenshots
+
+![Screenshot 1](https://github.com/rajvishwakarma/spring-boot-crawler/blob/master/Screenshot%202019-02-26%20at%202.26.29%20AM.png)
+
+![Screenshot 2](https://github.com/rajvishwakarma/spring-boot-crawler/blob/master/Screenshot%202019-02-26%20at%202.26.53%20AM.png)
+
+![Screenshot 3](https://github.com/rajvishwakarma/spring-boot-crawler/blob/master/Screenshot%202019-02-26%20at%202.27.15%20AM.png)
