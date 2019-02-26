@@ -14,3 +14,7 @@ For the impatient...
   mvn package
   mvn spring-boot:run
 ```
+
+# More possible solution to the problem
+
+A more possible approach could have been to create Background Jobs to crawl the resources in background and updating the links and resources in database. Each time a link is added to crawl it will process inline for the first time but later on it can be done in background. It will crawl through the complete website and collect all the resources and links. Whenever the same link is provided to crawl, the results can be fetched directly from the database and save the time to crawl the website again and again. This can be an optimized way of doing things.    
